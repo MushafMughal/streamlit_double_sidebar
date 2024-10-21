@@ -3,7 +3,7 @@ import streamlit as st
 
 sidebar_style = '''
     <style>
-
+	/*main content styling*/
     #root > div:nth-child(1) > div.withScreencast > div > div > div > section.stAppViewMain.main > div.stAppViewBlockContainer.block-container > div > div > div > div > div:first-child {
 	font-size: 16px;
     	font-family: "Source Sans Pro", sans-serif;
@@ -23,7 +23,7 @@ sidebar_style = '''
     #root > div:nth-child(1) > div.withScreencast > div > div > div > section.stAppViewMain.main > div.stAppViewBlockContainer.block-container {
         max-width: 55rem;
     }
-
+	/*right sidebar styling*/
     #right-sidebar-filters {
 	    text-size-adjust: 100%;
     	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -41,7 +41,7 @@ sidebar_style = '''
     	font-size: 1.5rem;
     	scroll-margin-top: 3.75rem;
     }
-
+	/*cols styling*/
     #root > div:nth-child(1) > div.withScreencast > div > div > div > section.stAppViewMain.main > div.stAppViewBlockContainer.block-container > div {
         margin-top: -40px;
     }
