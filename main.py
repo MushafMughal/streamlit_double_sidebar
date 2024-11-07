@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+#Styling
 sidebar_style = '''
     <style>
 	/*main content styling*/
@@ -58,7 +58,7 @@ left_filter2 = st.sidebar.slider("Select Range", 0, 100, (25, 75))
 st.sidebar.write("Selected Category:", left_filter1)
 st.sidebar.write("Selected Range:", left_filter2)
 
-# Main Content Layout - with columns
+# Main Content Layout - with columns 
 col2, col3 = st.columns([3, 1])
 
 # Main Content Area
